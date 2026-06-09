@@ -17,33 +17,36 @@ To analyze healthcare trends, patient activity, and clinical metrics using Power
 ## Data Dictionary
 **patients.csv**
 - patient_id - Unique identifier for each patient
-- age - Patient age
-- gender - Patient Gender
+- first_name - Patient's first name
+- Last_name - Patient's last name
+- date_of_birth - Date of birth
+- gender - Patient gender
 
 **visits.csv**
 - visit_id - Unique identifier for each visit
-- patient_id - Links to patient.csv
+- patient_id - Links to patients.csv
 - visit_date - Date of the visit
-- visit_type - Reason or category of visit
+- diagnosis_code- Code respresenting the diagnosis
+- provider - Healthcare provider seen during the visit
 
-  **diagnoses.csv**
-  - diagnosis_id - Unique identifier for each diagnosis
-  - visit_id - Links to visits.csv
-  - diagnosis_code - ICD or internal code
-  - diagnosis_description - Description of the diagnoses
+**diagnoses.csv**
+- diagnosis_id - Unique identifier for each diagnosis
+- visit_id - Links to visits.csv
+- diagnosis_code - ICD or internal code
+- diagnosis_description - Description of the diagnoses
  
-    ## How to Use
-    1. Download all CSV files and the PBIX file.
-    2. Open **HealthcareDB.pbix** in power BI Desktop.
-    3. Ensure the CSV files are in the same folder as the PBIX file.
-    4. Refresh the data model to load the latest data.
-    5. Explore the dashboard visuals to analyze trends and metrics.
+## How to Use
+1. Download all CSV files and the PBIX file.
+2. Open **HealthcareDB.pbix** in power BI Desktop.
+3. Ensure the CSV files are in the same folder as the PBIX file.
+4. Refresh the data model to load the latest data.
+5. Explore the dashboard visuals to analyze trends and metrics.
 
-    ## Project Overview
-    This dashboard provides insights into:
-    - Patient demographics
-    - Visit frequency and patterns
-    - Diagnosis distribution
-    - Clinical activity trends
+## Project Overview
+This dashboard provides insights into:
+- Patient demographics
+- Visit frequency and patterns
+- Diagnosis distribution
+- Clinical activity trends
 
-    It is a designed for healthcare analytics practice, data modeling, and visualization skill building.
+It is a designed for healthcare analytics practice, data modeling, and visualization skill building.

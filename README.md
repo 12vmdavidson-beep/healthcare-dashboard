@@ -12,7 +12,7 @@ It includes patient, visit, and diagnosis data used to build visual insights.
 
 ## Purpose
 
-To analyze healcare trends, patient activity, and clinical metrics using Power BI.
+To analyze healthcare trends, patient activity, and clinical metrics using Power BI.
 
 ## Data Dictionary
 **patients.csv**

@@ -1,7 +1,0 @@
-diagnosis_id,visit_id,diagnosis_code,description
-1,101,D02,Flu
-2,103,M01,Hypertension
-3,104,V05,Diabetes
-4,106,D15,Asthma
-5,107,M22,Seasonal Allergies
-6,109,V10,Chronic Back Pain
